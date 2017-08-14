@@ -13,7 +13,7 @@
     "react-scripts": "1.0.10"
   },
   "scripts": {
-    "start": "next start -p $PORT",
+    "start": "next start",
     "build": "next build",
     "deploy": "cross-env PORT=9002 npm start",
     "deploy1": "cross-env PORT=9001 npm start",
